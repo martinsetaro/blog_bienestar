@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* para iniciar
+npx tailwindcss -i ./style/style.css -o ./style/tailwind.css --watch
+*/
+@font-face {
+    font-family: 'avertaR';
+    src: url('../public/fonts/avertaR.otf');
+}
+
+.header 
+{
+ background-image: url('../public/img/background2.png');
+ background-size: cover;
+}
+.texto 
+{
+    font-family: 'avertaR';
+}
