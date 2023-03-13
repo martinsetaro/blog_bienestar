@@ -10,11 +10,7 @@ npx tailwindcss -i ./style/style.css -o ./style/tailwind.css --watch
     src: url('../public/fonts/avertaR.otf');
 }
 
-.header 
-{
- background-image: url('../public/img/background2.png');
- background-size: cover;
-}
+
 .texto 
 {
     font-family: 'avertaR';
