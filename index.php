@@ -1,6 +1,8 @@
 <?php
 include('include/header.php');
 
+
+
 $noticias = array(
     [
         "titulo" => "Reducir el colesterol consumiendo frutos secos",
@@ -35,29 +37,47 @@ $noticias = array(
 
 ?>
 
-<div class="w-full h-auto flex flex-wrap p-4 justify-around mt-14">
-    <div class="w-80 h-auto flex flex-col shadow-md bg-white pb-4 ">
+<div  class="w-full h-auto flex flex-wrap p-4 justify-around mt-14">
+    <div id="miDiv" class="w-80 h-auto flex flex-col shadow-md pb-4">
         <img class="w-full h-64" src="public/img/dormir.jpg" alt="img" title="buen dormir"/>
-        <h2 class="font-averta text-center mt-2 mb-2">Los beneficios del descanso</h2>
-        <p class="text-sm text-center mt-2">El descanso es esencial para el bienestar y la salud tanto física como mental. Aquí te presento algunos de los principales beneficios del descanso.</p>
-        <button class="bg-amber-400 p-2 rounded-lg mt-4 w-1/2 m-auto hover:bg-red-400 hover:text-white ">+ Info</button>
+        <h2 class="font-averta text-center mt-2 mb-2 text-xl">Los beneficios del descanso</h2>
+        <div class="w-full h-24 overflow-hidden" >
+        <p class="p-2 text-sm text-center mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eum quas cumque. Pariatur ducimus minus dolores quam dicta quos voluptate corporis quod, odio repellat. Illum tempora tenetur optio facere illo.
+        Porro accusantium dicta architecto! Aspernatur harum nisi quidem debitis. Nemo, reiciendis illum exercitationem dolore temporibus fuga vitae laboriosam molestiae nostrum quis eius natus distinctio qui est tempore facere neque similique. El descanso es esencial para el bienestar y la salud tanto física como mental. Aquí te presento algunos de los principales beneficios del descanso. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque veritatis id excepturi enim placeat ad obcaecati, optio, reiciendis error deleniti iusto ratione nostrum ab explicabo nesciunt. Enim reiciendis minima porro.
+        Quae reiciendis, excepturi ut velit, perferendis alias dolorem voluptas laboriosam quasi nulla, consectetur non vero magnam. Quaerat molestias esse maxime natus ullam. Accusantium, ratione quam non nobis vero perferendis. Rem?
+        A dolores consectetur earum ratione iure? Libero officiis corporis earum esse, eius rerum mollitia repellendus veritatis suscipit veniam culpa autem laboriosam eaque nesciunt dolore. Amet voluptatibus pariatur architecto voluptate ut.
+        Laudantium atque, ipsum facilis rerum eum at unde quo praesentium, impedit ea, perferendis quia aperiam tempore ad harum repudiandae. Quis quasi, adipisci sit aspernatur animi illum perspiciatis. Soluta, nemo adipisci.</p>
+       </div>
+        <button id="btn" class="bg-amber-400 p-2 rounded-lg mt-4 w-1/2 m-auto hover:bg-red-400 hover:text-white ">+ info</button>
     </div>
     <div class="w-80 h-auto flex flex-col shadow-md bg-white pb-4 ">
         <img class="w-full h-64" src="public/img/ejercicio.jpg" alt="img" title="buen dormir"/>
         <h2 class="font-averta text-center mt-2 mb-2">La clave de una rutina deportiva.</h2>
-        <p class="text-sm text-center mt-2">El descanso es esencial para el bienestar y la salud tanto física como mental. Aquí te presento algunos de los principales beneficios del descanso.</p>
-        <button class="bg-amber-400 p-2 rounded-lg mt-4 w-1/2 m-auto hover:bg-red-400 hover:text-white">+ Info</button>
+        <div class="w-full h-24 overflow-hidden" >
+        <p class="p-2 text-sm text-center mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eum quas cumque. Pariatur ducimus minus dolores quam dicta quos voluptate corporis quod, odio repellat. Illum tempora tenetur optio facere illo.
+        Porro accusantium dicta architecto! Aspernatur harum nisi quidem debitis. Nemo, reiciendis illum exercitationem dolore temporibus fuga vitae laboriosam molestiae nostrum quis eius natus distinctio qui est tempore facere neque similique. El descanso es esencial para el bienestar y la salud tanto física como mental. Aquí te presento algunos de los principales beneficios del descanso. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque veritatis id excepturi enim placeat ad obcaecati, optio, reiciendis error deleniti iusto ratione nostrum ab explicabo nesciunt. Enim reiciendis minima porro.
+        Quae reiciendis, excepturi ut velit, perferendis alias dolorem voluptas laboriosam quasi nulla, consectetur non vero magnam. Quaerat molestias esse maxime natus ullam. Accusantium, ratione quam non nobis vero perferendis. Rem?
+        A dolores consectetur earum ratione iure? Libero officiis corporis earum esse, eius rerum mollitia repellendus veritatis suscipit veniam culpa autem laboriosam eaque nesciunt dolore. Amet voluptatibus pariatur architecto voluptate ut.
+        Laudantium atque, ipsum facilis rerum eum at unde quo praesentium, impedit ea, perferendis quia aperiam tempore ad harum repudiandae. Quis quasi, adipisci sit aspernatur animi illum perspiciatis. Soluta, nemo adipisci.</p>
+       </div>
+        <button id="btn" class="bg-amber-400 p-2 rounded-lg mt-4 w-1/2 m-auto hover:bg-red-400 hover:text-white">+ Info</button>
     </div>
     <div class="w-80 h-auto flex flex-col shadow-md bg-white pb-4 ">
         <img class="w-full h-64" src="public/img/alimento.jpg" alt="img" title="buen dormir"/>
         <h2 class="font-averta text-center mt-2 mb-2">Los alimentos y el descanso.</h2>
-        <p class="text-sm text-center mt-2">El descanso es esencial para el bienestar y la salud tanto física como mental. Aquí te presento algunos de los principales beneficios del descanso.</p>
-        <button class="bg-amber-400 p-2 rounded-lg mt-4 w-1/2 m-auto hover:bg-red-400 hover:text-white ">+ Info</button>
+        <div class="w-full h-24 overflow-hidden" >
+        <p class="p-2 text-sm text-center mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eum quas cumque. Pariatur ducimus minus dolores quam dicta quos voluptate corporis quod, odio repellat. Illum tempora tenetur optio facere illo.
+        Porro accusantium dicta architecto! Aspernatur harum nisi quidem debitis. Nemo, reiciendis illum exercitationem dolore temporibus fuga vitae laboriosam molestiae nostrum quis eius natus distinctio qui est tempore facere neque similique. El descanso es esencial para el bienestar y la salud tanto física como mental. Aquí te presento algunos de los principales beneficios del descanso. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque veritatis id excepturi enim placeat ad obcaecati, optio, reiciendis error deleniti iusto ratione nostrum ab explicabo nesciunt. Enim reiciendis minima porro.
+        Quae reiciendis, excepturi ut velit, perferendis alias dolorem voluptas laboriosam quasi nulla, consectetur non vero magnam. Quaerat molestias esse maxime natus ullam. Accusantium, ratione quam non nobis vero perferendis. Rem?
+        A dolores consectetur earum ratione iure? Libero officiis corporis earum esse, eius rerum mollitia repellendus veritatis suscipit veniam culpa autem laboriosam eaque nesciunt dolore. Amet voluptatibus pariatur architecto voluptate ut.
+        Laudantium atque, ipsum facilis rerum eum at unde quo praesentium, impedit ea, perferendis quia aperiam tempore ad harum repudiandae. Quis quasi, adipisci sit aspernatur animi illum perspiciatis. Soluta, nemo adipisci.</p>
+       </div>
+        <button id="btn" class="bg-amber-400 p-2 rounded-lg mt-4 w-1/2 m-auto hover:bg-red-400 hover:text-white ">+ Info</button>
     </div>
 
 </div>
 <div class="w-full h-auto pt-12 pb-12">
-<h2 class="text-3xl text-white bg-cyan-700 font-averta p-3">Últimas noticias sobre temas de salud y bienestar</h2>
+<h2 class="text-3xl text-white bg-cyan-500 font-averta p-3">Últimas noticias sobre temas de salud y bienestar</h2>
 <div class="flex flex-wrap justify-around w-full h-auto p-4">
 <?php 
 foreach ($noticias as $noticia) { ?>

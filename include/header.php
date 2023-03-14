@@ -15,9 +15,9 @@
         
         <nav class="w-full h-30 flex justify-around">
              <div class="w-full h-30 p-5 text-xl texto flex justify-center gap-10 mt-8">
-               <a class="hover:text-red-500 underline cursor-pointer transition-all ease-in-out duration-300" href="#">Inicio</a>
+               <a class="hover:text-red-500 underline cursor-pointer transition-all ease-in-out duration-300" href="index.php">Inicio</a>
                <a class="hover:text-red-500 underline cursor-pointer transition-all ease-in-out duration-300" href="#">Semanal</a>
-               <a class="hover:text-red-500 underline cursor-pointer transition-all ease-in-out duration-300" href="#">Contacto</a>
+               <a class="hover:text-red-500 underline cursor-pointer transition-all ease-in-out duration-300" href="contacto.php">Contacto</a>
             </div>
             <div class="w-full p-5 flex justify-center">
               <img class="w-32 h-32" src='public/img/log.png' alt="logo" title="logo"/>
